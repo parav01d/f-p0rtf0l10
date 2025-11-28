@@ -1,8 +1,8 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import SuccessButton from "./Component/Action/SuccessButton.vue";
+</script>
 <template>
-  <div>
-    <h1 class="pl-5 pt-5">hello!</h1>
-    <NuxtRouteAnnouncer />
-    <NuxtWelcome />
+  <div class="flex flex-col justify-center items-center h-screen w-screen">
+    <SuccessButton />
   </div>
 </template>
